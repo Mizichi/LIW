@@ -1978,6 +1978,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Owner #2
       objectReference: {fileID: 0}
+    - target: {fileID: 2502520976729059050, guid: 00a50fd1e5e3cd94b8f33c9126ce013d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 00a50fd1e5e3cd94b8f33c9126ce013d, type: 3}
 --- !u!1001 &7244999143141287718
@@ -2041,7 +2045,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7244999144089316310, guid: ed6b94186148a2d4b9a6f03406804cdf, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ed6b94186148a2d4b9a6f03406804cdf, type: 3}

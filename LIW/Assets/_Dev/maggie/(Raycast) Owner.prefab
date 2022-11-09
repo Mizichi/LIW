@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 7244999144089316304}
   - component: {fileID: 7244999144089316307}
   m_Layer: 0
-  m_Name: Owner #1
+  m_Name: (Raycast) Owner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

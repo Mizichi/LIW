@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 2502520976729059045}
   - component: {fileID: 2502520976729059043}
   m_Layer: 0
-  m_Name: Owner #2
+  m_Name: (Box) Owner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
