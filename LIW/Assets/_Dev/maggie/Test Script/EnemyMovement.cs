@@ -85,7 +85,7 @@ public class EnemyMovement : MonoBehaviour
                 {
                     if (Time.time - lastAttackTime >= 1f / fireRate)
                     {
-                        shoot();
+                        //shoot();
                         lastAttackTime = Time.time;
                     }
                 }
@@ -95,11 +95,6 @@ public class EnemyMovement : MonoBehaviour
         }
     }
 
-    public void shoot()
-    {
-        //Rigidbody projectileRB = Instantiate(projectile, transform.position, transform.rotation);
-        //projectileRB.velocity = transform.forward * speed;
-    }
 
     private void OnCollisionEnter(Collision collision)
     {
