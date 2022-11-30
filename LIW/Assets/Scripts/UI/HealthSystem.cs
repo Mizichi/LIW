@@ -10,11 +10,11 @@ public class HealthSystem : MonoBehaviour
     public TextMeshProUGUI healthText;
     public static int healthValue = 50;
 
-    public static int currectHealth = 50;
+    //public static int currectHealth = 5;
 
     private void Start()
     {
-        currectHealth = healthValue;
+        healthValue = 50;
     }
 
     void Update()

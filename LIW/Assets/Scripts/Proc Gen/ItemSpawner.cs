@@ -17,6 +17,7 @@ public class ItemSpawner : MonoBehaviour
     void Start()
     {
         itemList = new List<GameObject>(Resources.LoadAll<GameObject>("Items"));
+        itemCount = 0;
 
         startInvoke();
     }
