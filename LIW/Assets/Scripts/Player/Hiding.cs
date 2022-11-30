@@ -18,8 +18,6 @@ public class Hiding : MonoBehaviour
     {
         outOfRange,
         inRange,
-        inRangeHiding,
-        inRangeOut
     }
     // Start is called before the first frame update
     void Start()
@@ -44,13 +42,14 @@ public class Hiding : MonoBehaviour
 
         if (isInRange == range.inRange)
         {
-            //GetComponent<Material>().color = new Color(0, 200, 0);
             if (Input.GetKeyDown(KeyCode.E))
             {
                 previousPlayerPosition = player.transform.position;
                 player.transform.position = this.transform.position;
 
                 isInRange = range.inRange;
+
+                player.gameObject.SetActive(false);
             }
         }
         if(isInRange == range.inRange)
@@ -58,12 +57,13 @@ public class Hiding : MonoBehaviour
             if (Input.GetKeyUp(KeyCode.E))
             {
                 player.transform.position = previousPlayerPosition;
+                player.gameObject.SetActive(true);
             }
         }
 
         if (isInRange == range.outOfRange)
         {
-            //GetComponent<Material>().color = new Color(255, 255, 255);
+
         }
     }
     
