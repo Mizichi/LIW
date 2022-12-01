@@ -35,7 +35,7 @@ public class FerretMovement : MonoBehaviour
         readyToJump = true;
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
         //check if ferret is touching ground
         grounded = Physics.Raycast(transform.position, Vector3.down, playerHeight * 0.5f + 0.3f, whatIsGround);
@@ -43,7 +43,7 @@ public class FerretMovement : MonoBehaviour
         //get input
         horizontalInput = Input.GetAxisRaw("Horizontal");
         verticalInput = Input.GetAxisRaw("Vertical");
-        if(Input.GetKey(KeyCode.Space) && readyToJump && grounded)
+        if (Input.GetKey(KeyCode.Space) && readyToJump && grounded)
         {
             ferretAnimation.SetBool("Jump", true);
             readyToJump = false;
@@ -51,11 +51,6 @@ public class FerretMovement : MonoBehaviour
             Invoke(nameof(JumpReset), jumpCooldown);
         }
 
-
-    }
-
-    private void FixedUpdate()
-    {
         //control speed
         Vector3 flatVel = new Vector3(rb.velocity.x, 0f, rb.velocity.z);
         if (flatVel.magnitude > moveSpeed)

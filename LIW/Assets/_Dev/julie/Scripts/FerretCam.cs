@@ -29,7 +29,7 @@ public class FerretCam : MonoBehaviour
 
         //move PLAYEROBJECT
         if (inputDir != Vector3.zero)
-            playerObj.forward = Vector3.Slerp(playerObj.forward, inputDir.normalized, rotationSpeed); //removed Time.deltaTime bc of stuttering issues
+            playerObj.forward = Vector3.Slerp(playerObj.forward, inputDir.normalized, Time.fixedDeltaTime * rotationSpeed); //removed Time.deltaTime bc of stuttering issues
 
     }
 }
