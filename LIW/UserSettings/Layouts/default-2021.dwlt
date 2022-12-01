@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1060
     height: 743.2
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Hierarchy
   m_RootView: {fileID: 7}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -121,8 +121,8 @@ MonoBehaviour:
     y: 0
     width: 192.8
     height: 464.8
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -469,22 +469,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Eriane\Documents\GitHub\LIW\LIW
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 100.599976}
-    m_SelectedIDs: 2e600000
-    m_LastClickedID: 24622
-    m_ExpandedIDs: 000000001a600000226000005660000000ca9a3b
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: 985d0000
+    m_LastClickedID: 23960
+    m_ExpandedIDs: 00000000985d0000a05d0000ae5d0000d05d0000d45d0000185e000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -512,7 +512,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000001a600000
+    m_ExpandedIDs: 00000000985d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -642,7 +642,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: eed0ffffb4d8ffffb4eeffff16f9ffff365f0000ac6f0000be7a0000
+      m_ExpandedIDs: 1afbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -893,7 +893,7 @@ MonoBehaviour:
   m_Position:
     m_Target: {x: 1784.2728, y: 1162.2297, z: -16.278818}
     speed: 2
-    m_Value: {x: 1725.6555, y: 1265.8887, z: -17.31434}
+    m_Value: {x: 1784.2728, y: 1162.2297, z: -16.278818}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -946,7 +946,7 @@ MonoBehaviour:
   m_Size:
     m_Target: 2197.6409
     speed: 2
-    m_Value: 2301.1946
+    m_Value: 2197.6409
   m_Ortho:
     m_Target: 1
     speed: 2
