@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 647278496220230112}
   - component: {fileID: 3640329074446991454}
   - component: {fileID: -704654329830682284}
+  - component: {fileID: -4407585736242142604}
   m_Layer: 0
   m_Name: Washer
   m_TagString: Untagged
@@ -102,3 +103,18 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -4468429844926704506, guid: 02ad78cca7f19f843b49a2e580791919, type: 3}
+--- !u!114 &-4407585736242142604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4673469464391725890}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd24d0ec522902044bff047284c35237, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  previousPlayerPosition: {x: 0, y: 0, z: 0}
+  playerTransform: {x: 0, y: 0, z: 0}
+  player: {fileID: 0}

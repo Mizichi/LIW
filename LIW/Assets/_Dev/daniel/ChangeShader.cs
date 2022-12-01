@@ -2,11 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Hiding : MonoBehaviour
+public class ChangeShader : MonoBehaviour
 {
-    public Vector3 previousPlayerPosition;
-    public Vector3 playerTransform;
-
     public GameObject player;
 
     range isInRange;
@@ -49,32 +46,5 @@ public class Hiding : MonoBehaviour
             isInRange = range.outOfRange;
             this.gameObject.GetComponent<Renderer>().materials[1].shader = OutOfRangeShader;
         }
-
-        if (isInRange == range.inRange)
-        {
-            if (Input.GetKeyDown(KeyCode.E))
-            {
-                previousPlayerPosition = player.transform.position;
-                player.transform.position = this.transform.position;
-
-                isInRange = range.inRange;
-
-                player.gameObject.SetActive(false);
-            }
-        }
-        if(isInRange == range.inRange)
-        {
-            if (Input.GetKeyUp(KeyCode.E))
-            {
-                player.transform.position = previousPlayerPosition;
-                player.gameObject.SetActive(true);
-            }
-        }
-
-        if (isInRange == range.outOfRange)
-        {
-
-        }
     }
-    
 }

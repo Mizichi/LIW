@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Hiding : MonoBehaviour
+public class BoxesHiding : MonoBehaviour
 {
     public Vector3 previousPlayerPosition;
     public Vector3 playerTransform;
@@ -11,21 +11,12 @@ public class Hiding : MonoBehaviour
 
     range isInRange;
 
-    float minDistance = 7f;
-
-    Shader OutOfRangeShader;
-    Shader InRangeShader;
-
+    float minDistance = 5f;
 
     enum range
     {
         outOfRange,
         inRange,
-    }
-    private void Awake()
-    {
-        OutOfRangeShader = Shader.Find("Legacy Shaders/Diffuse");
-        InRangeShader = Shader.Find("Unlit/NewUnlitShader");
     }
 
     void Start()
@@ -42,12 +33,10 @@ public class Hiding : MonoBehaviour
         if (minDistance > distance)
         {
             isInRange = range.inRange;
-            this.gameObject.GetComponent<Renderer>().materials[1].shader = InRangeShader;
         }
         else
         {
             isInRange = range.outOfRange;
-            this.gameObject.GetComponent<Renderer>().materials[1].shader = OutOfRangeShader;
         }
 
         if (isInRange == range.inRange)
@@ -62,7 +51,7 @@ public class Hiding : MonoBehaviour
                 player.gameObject.SetActive(false);
             }
         }
-        if(isInRange == range.inRange)
+        if (isInRange == range.inRange)
         {
             if (Input.GetKeyUp(KeyCode.E))
             {
@@ -76,5 +65,4 @@ public class Hiding : MonoBehaviour
 
         }
     }
-    
 }

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6192900279598074697}
   - component: {fileID: 8997553215479974171}
   - component: {fileID: 5684570771077550434}
+  - component: {fileID: -7497752755039589995}
   m_Layer: 0
   m_Name: Wardrobe
   m_TagString: Untagged
@@ -99,3 +100,18 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -7401835733204412108, guid: 02ad78cca7f19f843b49a2e580791919, type: 3}
+--- !u!114 &-7497752755039589995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1992755686622482315}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd24d0ec522902044bff047284c35237, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  previousPlayerPosition: {x: 0, y: 0, z: 0}
+  playerTransform: {x: 0, y: 0, z: 0}
+  player: {fileID: 6626625904173259212, guid: 799b62e0a4f30da46a2d7f0e4311d1ef, type: 3}
