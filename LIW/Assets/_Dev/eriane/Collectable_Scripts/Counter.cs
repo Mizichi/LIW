@@ -9,6 +9,6 @@ public class count : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        scoreText.text = playercollision.bones.ToString("Duckies Collected: 0");
+        scoreText.text = playercollision.collectable.ToString("Duckies Collected: 0");
     }
 }
