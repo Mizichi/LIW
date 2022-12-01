@@ -98,10 +98,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 2
+  Player: {fileID: 1010426126577873021, guid: 5ef2d525938792c4087c89fca9627e49, type: 3}
   turnSpeed: 90
-  frequency: 2
-  magnitude: 0.5
-  offset: 1
 --- !u!135 &5509154463980487558
 SphereCollider:
   m_ObjectHideFlags: 0
