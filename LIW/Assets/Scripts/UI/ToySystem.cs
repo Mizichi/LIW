@@ -8,14 +8,7 @@ public class ToySystem : MonoBehaviour
     //Code by Maggie Rembert
 
     public TextMeshProUGUI toyText;
-    public static int toyValue;
-
-    public static int currectToy = 0;
-
-    private void Start()
-    {
-        currectToy = toyValue;
-    }
+    public static int toyValue = 0;
 
     void Update()
     {
