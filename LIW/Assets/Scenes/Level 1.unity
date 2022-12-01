@@ -1960,10 +1960,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Washer
       objectReference: {fileID: 0}
-    - target: {fileID: 4673469464391725890, guid: f0d11665f5b6e4e4f9262a51b4b2cd2a, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     - target: {fileID: 9194984060573762953, guid: f0d11665f5b6e4e4f9262a51b4b2cd2a, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -4202,18 +4198,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6626625904749557152, guid: 799b62e0a4f30da46a2d7f0e4311d1ef, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 2.05
-      objectReference: {fileID: 0}
-    - target: {fileID: 6626625904749557152, guid: 799b62e0a4f30da46a2d7f0e4311d1ef, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -4.958
-      objectReference: {fileID: 0}
-    - target: {fileID: 6626625905639530522, guid: 799b62e0a4f30da46a2d7f0e4311d1ef, type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 799b62e0a4f30da46a2d7f0e4311d1ef, type: 3}
 --- !u!1 &1270823239
@@ -4862,18 +4846,6 @@ PrefabInstance:
     - target: {fileID: 2261024658928376924, guid: 53f0bc15c3793fa4caf432fd4fd68f58, type: 3}
       propertyPath: m_RootOrder
       value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2261024658928376924, guid: 53f0bc15c3793fa4caf432fd4fd68f58, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 5.3975
-      objectReference: {fileID: 0}
-    - target: {fileID: 2261024658928376924, guid: 53f0bc15c3793fa4caf432fd4fd68f58, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 5.3975
-      objectReference: {fileID: 0}
-    - target: {fileID: 2261024658928376924, guid: 53f0bc15c3793fa4caf432fd4fd68f58, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 5.3975
       objectReference: {fileID: 0}
     - target: {fileID: 2261024658928376924, guid: 53f0bc15c3793fa4caf432fd4fd68f58, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7641,10 +7613,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Washer (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 4673469464391725890, guid: f0d11665f5b6e4e4f9262a51b4b2cd2a, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     - target: {fileID: 9194984060573762953, guid: f0d11665f5b6e4e4f9262a51b4b2cd2a, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -7772,18 +7740,6 @@ PrefabInstance:
     - target: {fileID: 2261024658928376924, guid: 53f0bc15c3793fa4caf432fd4fd68f58, type: 3}
       propertyPath: m_RootOrder
       value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 2261024658928376924, guid: 53f0bc15c3793fa4caf432fd4fd68f58, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 5.3975
-      objectReference: {fileID: 0}
-    - target: {fileID: 2261024658928376924, guid: 53f0bc15c3793fa4caf432fd4fd68f58, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 5.3975
-      objectReference: {fileID: 0}
-    - target: {fileID: 2261024658928376924, guid: 53f0bc15c3793fa4caf432fd4fd68f58, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 5.3975
       objectReference: {fileID: 0}
     - target: {fileID: 2261024658928376924, guid: 53f0bc15c3793fa4caf432fd4fd68f58, type: 3}
       propertyPath: m_LocalPosition.x
