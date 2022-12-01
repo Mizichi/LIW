@@ -98,6 +98,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   toy: 1
+  turnSpeed: 90
+  frequency: 1
+  magnitude: 1
+  offset: 1
 --- !u!135 &-6888558943494899803
 SphereCollider:
   m_ObjectHideFlags: 0

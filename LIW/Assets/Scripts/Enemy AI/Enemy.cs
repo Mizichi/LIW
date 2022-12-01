@@ -25,7 +25,7 @@ public class Enemy : MonoBehaviour
 
     void Update()
     {
-        if(Vector3.Distance(myAgent.destination, transform.position) <= 1)
+        if(Vector3.Distance(myAgent.destination, transform.position) <= 1) //sets destination to the waypoints
         {
             currentWaypoint++;
             if(currentWaypoint >= waypoints.Length)
@@ -42,12 +42,12 @@ public class Enemy : MonoBehaviour
         if(other.tag == "Player")
         {
 
-            if(Vector3.Distance(transform.position, other.transform.position) <= 2)
+            if(Vector3.Distance(transform.position, other.transform.position) <= 2)//heads towards player and plays a "grab" animation when the player is in range
             {
                 myAgent.destination = transform.position;
                 anim.SetTrigger("Grab");
             }
-            else
+            else //continues following waypoints
             {
                 myAgent.destination = other.transform.position;
             }

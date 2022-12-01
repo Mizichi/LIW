@@ -98,6 +98,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: -3
+  turnSpeed: 90
+  frequency: 2
+  magnitude: 0.5
+  offset: 1
 --- !u!135 &8573172527870758336
 SphereCollider:
   m_ObjectHideFlags: 0

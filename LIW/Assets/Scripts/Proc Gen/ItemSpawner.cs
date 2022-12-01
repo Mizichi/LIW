@@ -10,9 +10,9 @@ public class ItemSpawner : MonoBehaviour
 
     public List<GameObject> itemList;
 
-    public static int itemCount = 0;
-    public int itemLimit = 10;
-    public int areaVal = 10;
+    public static int itemCount = 0; //used to deturmine how many items spawn
+    public int itemLimit = 10; //change in the inspector depending on how much you want per scene
+    public int areaVal = 10; //change in the inspector depending on the map size
 
     void Start()
     {
@@ -22,7 +22,7 @@ public class ItemSpawner : MonoBehaviour
         startInvoke();
     }
 
-    void Update()
+    void Update() //uses values to make sure there is always the desired amount of items on in the scene
     {
         if (itemCount < itemLimit)
             spawn();
@@ -36,7 +36,7 @@ public class ItemSpawner : MonoBehaviour
 
     void spawn()
     {
-
+        //setting the value ranges in which items can spawn
         int ranX = Random.Range(-areaVal, areaVal);
         int ranZ = Random.Range(-areaVal, areaVal);
         int ranItem = Random.Range(0, 16); //change value based on amount of health changing items in resourse/items folder
@@ -45,7 +45,7 @@ public class ItemSpawner : MonoBehaviour
 
         Instantiate(itemList[ranItem], new Vector3(ranX, 1, ranZ), Quaternion.identity);
 
-        itemCount++;
+        itemCount++; //keeps tack of the amount of spawned items
 
     }
 }
