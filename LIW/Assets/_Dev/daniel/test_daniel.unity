@@ -123,6 +123,26 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &151018806 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8252459739642367119, guid: 567394f18115fcf47a3c73d9fc13bb21, type: 3}
+  m_PrefabInstance: {fileID: 1390153741}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &151018811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 151018806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd24d0ec522902044bff047284c35237, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  previousPlayerPosition: {x: 0, y: 0, z: 0}
+  playerTransform: {x: 0, y: 0, z: 0}
+  player: {fileID: 6626625905380007620}
 --- !u!1 &507800362 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2261024658928376925, guid: 53f0bc15c3793fa4caf432fd4fd68f58, type: 3}
@@ -200,6 +220,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53f0bc15c3793fa4caf432fd4fd68f58, type: 3}
+--- !u!1 &767444967 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3586407520569445242, guid: 567394f18115fcf47a3c73d9fc13bb21, type: 3}
+  m_PrefabInstance: {fileID: 1390153741}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &767444972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 767444967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd24d0ec522902044bff047284c35237, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  previousPlayerPosition: {x: 0, y: 0, z: 0}
+  playerTransform: {x: 0, y: 0, z: 0}
+  player: {fileID: 6626625905380007620}
 --- !u!1001 &1163693494
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -659,18 +699,18 @@ MonoBehaviour:
   previousPlayerPosition: {x: 0, y: 0, z: 0}
   playerTransform: {x: 0, y: 0, z: 0}
   player: {fileID: 0}
---- !u!1 &1944580196 stripped
+--- !u!1 &2038325469 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 6727166186902103358, guid: 567394f18115fcf47a3c73d9fc13bb21, type: 3}
+  m_CorrespondingSourceObject: {fileID: 6648260584177281223, guid: 567394f18115fcf47a3c73d9fc13bb21, type: 3}
   m_PrefabInstance: {fileID: 1390153741}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1944580199
+--- !u!114 &2038325474
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1944580196}
+  m_GameObject: {fileID: 2038325469}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fd24d0ec522902044bff047284c35237, type: 3}

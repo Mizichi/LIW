@@ -13,13 +13,21 @@ public class Hiding : MonoBehaviour
 
     float minDistance = 5f;
 
+    Shader OutOfRangeShader;
+    Shader InRangeShader;
+
 
     enum range
     {
         outOfRange,
         inRange,
     }
-    // Start is called before the first frame update
+    private void Awake()
+    {
+        OutOfRangeShader = Shader.Find("Legacy Shaders/Diffuse");
+        InRangeShader = Shader.Find("Unlit/NewUnlitShader");
+    }
+
     void Start()
     {
         isInRange = range.outOfRange;
@@ -34,10 +42,12 @@ public class Hiding : MonoBehaviour
         if (minDistance > distance)
         {
             isInRange = range.inRange;
+            this.gameObject.GetComponent<Renderer>().materials[1].shader = InRangeShader;
         }
         else
         {
             isInRange = range.outOfRange;
+            this.gameObject.GetComponent<Renderer>().materials[1].shader = OutOfRangeShader;
         }
 
         if (isInRange == range.inRange)
