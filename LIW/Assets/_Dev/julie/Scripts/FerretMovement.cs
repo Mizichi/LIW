@@ -90,7 +90,7 @@ public class FerretMovement : MonoBehaviour
 
             rb.AddForce(moveDirection.normalized * moveSpeed * 10f, ForceMode.Force);
         }
-        else if (!grounded)//om air
+        else if (!grounded)//on air
         {
             rb.AddForce(moveDirection.normalized * moveSpeed * 10f * airMultiplier, ForceMode.Force);
         }
