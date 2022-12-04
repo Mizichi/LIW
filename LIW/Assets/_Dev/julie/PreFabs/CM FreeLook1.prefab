@@ -137,6 +137,8 @@ GameObject:
   m_Component:
   - component: {fileID: 260171486443793613}
   - component: {fileID: 260171486443793612}
+  - component: {fileID: 148417870720609793}
+  - component: {fileID: -2895407180452031865}
   m_Layer: 0
   m_Name: CM FreeLook1
   m_TagString: Untagged
@@ -266,6 +268,48 @@ MonoBehaviour:
   - {fileID: 260171486804975963}
   - {fileID: 260171486708710535}
   - {fileID: 260171487072137864}
+--- !u!114 &148417870720609793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 260171486443793615}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e501d18bb52cf8c40b1853ca4904654f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_CollideAgainst:
+    serializedVersion: 2
+    m_Bits: 2147483647
+  m_IgnoreTag: Player
+  m_TransparentLayers:
+    serializedVersion: 2
+    m_Bits: 1
+  m_MinimumDistanceFromTarget: 8.68
+  m_AvoidObstacles: 1
+  m_DistanceLimit: 4.15
+  m_MinimumOcclusionTime: 5.75
+  m_CameraRadius: 2.1
+  m_Strategy: 0
+  m_MaximumEffort: 4
+  m_SmoothingTime: 0
+  m_Damping: 10
+  m_DampingWhenOccluded: 8.22
+  m_OptimalTargetDistance: 1.72
+--- !u!114 &-2895407180452031865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 260171486443793615}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 729aad4491e915a41bda2b8325cf757a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &260171486708710534
 GameObject:
   m_ObjectHideFlags: 3
