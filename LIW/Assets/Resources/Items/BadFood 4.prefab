@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: -5647427011188604141}
   m_Layer: 0
   m_Name: BadFood 4
-  m_TagString: Untagged
+  m_TagString: Food
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -97,7 +97,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dc4d1a612bc3d5429e56675234816da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: -2
+  health: -3
   turnSpeed: 90
 --- !u!135 &-5647427011188604141
 SphereCollider:

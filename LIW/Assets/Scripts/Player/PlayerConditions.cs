@@ -13,6 +13,8 @@ public class PlayerConditions : MonoBehaviour
     public static bool IsCaptured = false;
     public GameObject capturedUI;
 
+    public AudioSource eatSound;
+
     private void Start()
     {
         Time.timeScale = 1f;
@@ -31,11 +33,16 @@ public class PlayerConditions : MonoBehaviour
                 Pause();
             }
         }
+
+        if (other.tag == "Food")
+        {
+            eatSound.Play(); //plays sound
+        }
     }
 
     private void Update()
     {
-        if(HealthSystem.healthValue == 0)
+        if(HealthSystem.healthValue <= 0)
         {
             int index = SceneManager.GetActiveScene().buildIndex;
             if (!reload)

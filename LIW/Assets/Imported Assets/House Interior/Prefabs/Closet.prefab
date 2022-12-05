@@ -11,7 +11,9 @@ GameObject:
   - component: {fileID: 746243761966595083}
   - component: {fileID: 8889373788136668458}
   - component: {fileID: 1786211689371011540}
-  - component: {fileID: -9002256303897686280}
+  - component: {fileID: 1795704475625274711}
+  - component: {fileID: 9220824697586360671}
+  - component: {fileID: 392579576036553295}
   m_Layer: 0
   m_Name: Closet
   m_TagString: Untagged
@@ -87,8 +89,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &-9002256303897686280
-MeshCollider:
+--- !u!65 &1795704475625274711
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -97,7 +99,32 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -2701822534097121315, guid: 02ad78cca7f19f843b49a2e580791919, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 0.32142124, y: 0.6089895, z: 0.7224454}
+  m_Center: {x: 0.21024835, y: -0.34290013, z: -0.1018246}
+--- !u!65 &9220824697586360671
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8468767872854852697}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.48696837, y: 0.11910293, z: 0.8801001}
+  m_Center: {x: 0.2286504, y: -0.10168771, z: -0.022997214}
+--- !u!65 &392579576036553295
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8468767872854852697}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.6689565, y: 0.66957855, z: 0.31734976}
+  m_Center: {x: 0.22093117, y: 0.3126051, z: -0.30437264}

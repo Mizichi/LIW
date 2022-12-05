@@ -8,6 +8,8 @@ public class ToyItem : MonoBehaviour
 
     public int toy = 1;
 
+    public AudioSource duckSound;
+
     //varriables for anim
     [SerializeField] float turnSpeed = 90f;
 
@@ -15,6 +17,7 @@ public class ToyItem : MonoBehaviour
     {
         if (other.tag == "Player")
         {
+            duckSound.Play(); //plays sound
             ToySystem.toyValue += toy; //adds a value to the ToySystem text value
             Destroy(gameObject);
         }
