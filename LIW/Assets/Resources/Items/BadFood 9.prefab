@@ -98,7 +98,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: -2
-  Player: {fileID: 1010426126577873021, guid: 5ef2d525938792c4087c89fca9627e49, type: 3}
   turnSpeed: 90
 --- !u!135 &8749938899735650920
 SphereCollider:
@@ -111,5 +110,5 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.26249552
-  m_Center: {x: -0.00000008195639, y: 0.2624957, z: 0.0000003874302}
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0.1, z: 0}

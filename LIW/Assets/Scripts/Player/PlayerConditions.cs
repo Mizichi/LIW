@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class PlayerConditions : MonoBehaviour
 {
@@ -9,12 +10,26 @@ public class PlayerConditions : MonoBehaviour
 
     public bool reload;
 
+    public static bool IsCaptured = false;
+    public GameObject capturedUI;
+
+    private void Start()
+    {
+        Time.timeScale = 1f;
+    }
+
     private void OnTriggerEnter(Collider other)
     {
         if(other.tag == "Enemy")
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-            HealthSystem.healthValue = 50;
+            if (IsCaptured)
+            {
+                Resume();
+            }
+            else
+            {
+                Pause();
+            }
         }
     }
 
@@ -30,5 +45,19 @@ public class PlayerConditions : MonoBehaviour
             }
             SceneManager.LoadScene(index);
         }
+    }
+
+    public void Resume()
+    {
+        capturedUI.SetActive(false);
+        Time.timeScale = 1f;
+        IsCaptured = false;
+    }
+
+    public void Pause()
+    {
+        capturedUI.SetActive(true);
+        Time.timeScale = 0f;
+        IsCaptured = true;
     }
 }
