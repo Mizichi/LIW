@@ -180,6 +180,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   reload: 0
   capturedUI: {fileID: 0}
+  eatSound: {fileID: 3528751142294550491}
 --- !u!114 &2066764299059388646
 MonoBehaviour:
   m_ObjectHideFlags: 0
