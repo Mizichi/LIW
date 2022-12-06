@@ -17,6 +17,6 @@ public class HealthSystem : MonoBehaviour
 
     void Update()
     {
-        healthText.GetComponent<TextMeshProUGUI>().text = "Health : " + healthValue; //displays health value
+        healthText.GetComponent<TextMeshProUGUI>().text = healthValue.ToString(); //displays health value
     }
 }

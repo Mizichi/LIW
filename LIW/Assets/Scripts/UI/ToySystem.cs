@@ -12,6 +12,6 @@ public class ToySystem : MonoBehaviour
 
     void Update()
     {
-        toyText.GetComponent<TextMeshProUGUI>().text = "Toys : " + toyValue; //displays toy amount
+        toyText.GetComponent<TextMeshProUGUI>().text = toyValue.ToString(); //displays toy amount
     }
 }
