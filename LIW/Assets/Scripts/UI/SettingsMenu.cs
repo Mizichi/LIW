@@ -9,10 +9,11 @@ public class SettingsMenu : MonoBehaviour
     public AudioMixer mainMixer;
     public TMPro.TMP_Dropdown resolutionDropdown;
     Resolution[] resolutions;
-    public TMPro.TMP_Dropdown CBModes;
-    string[] modes = new string[] { "Protanopia", "Deuteranopia", "Tritanopia" };
+    public Toggle toggleCB;
+    public GameObject CB;
     void Start()
     {
+        //resolution
         resolutions = Screen.resolutions;
         resolutionDropdown.ClearOptions();
 
@@ -33,6 +34,16 @@ public class SettingsMenu : MonoBehaviour
         resolutionDropdown.AddOptions(options);//added to our dropdown
         resolutionDropdown.value = currentResolutionIndex;
         resolutionDropdown.RefreshShownValue();
+
+        //color blind
+        if(PlayerPrefs.GetInt("ToogleBool") == 1)
+        {
+            toggleCB.isOn = true;
+        }
+        else
+        {
+            toggleCB.isOn = false;
+        }
     }
 
     public void SetResolution(int resolutionIndex)
@@ -44,9 +55,18 @@ public class SettingsMenu : MonoBehaviour
     {
         mainMixer.SetFloat("volume", volume);
     }
-
-    public void ColorBlindMode(int type)
+    public void Update()
     {
-        string Mode = modes[type];
+        if (toggleCB.isOn == true)
+        {
+            PlayerPrefs.SetInt("ToggleBool", 1);
+            CB.SetActive(true);
+        }
+        else
+        {
+            PlayerPrefs.SetInt("ToggleBool", 0);
+            CB.SetActive(false);
+        }
+
     }
 }

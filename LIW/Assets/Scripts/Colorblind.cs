@@ -14,7 +14,7 @@ namespace Wilberforce
     public class Colorblind : MonoBehaviour
     {
         // public Parameters  
-		public int Type = 0;
+		public int Type = 0; 
 
         // private Parameters
 		public Shader colorblindShader;

@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8268522322481266022}
   - component: {fileID: 8268522322481266018}
   - component: {fileID: 8268522322481266017}
-  - component: {fileID: 5618220703721672987}
+  - component: {fileID: 654011181671980829}
   m_Layer: 0
   m_Name: Camera (1)
   m_TagString: Untagged
@@ -138,7 +138,7 @@ MonoBehaviour:
   m_CameraActivatedEvent:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &5618220703721672987
+--- !u!114 &654011181671980829
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -147,8 +147,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 8268522322481266020}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5ae42c8f78c60684aab6be6c18bd7a9b, type: 3}
+  m_Script: {fileID: 11500000, guid: 364a13ef71f9b40e58990911b66a39cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Type: 0
-  colorblindShader: {fileID: 4800000, guid: b35b8f7ae8cf168488129d5f5f39ebf4, type: 3}
+  BlindMode: 1
+  BlindIntensity: 1
+  ColorBlindShader: {fileID: 4800000, guid: 88e723f30bf154fbe91c8f4fe29a7ee9, type: 3}
