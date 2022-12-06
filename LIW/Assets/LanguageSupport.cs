@@ -21,9 +21,8 @@ public class LanguageSupport : MonoBehaviour
     }
     public void Language(string language)
     {
-        LocalizationManager.Language = language;
-        PlayerPrefs.SetString("lang", language);
-
-        Debug.Log("Language Change To: " + PlayerPrefs.GetString("lang"));
+        LocalizationManager.Language = language;//change language
+        PlayerPrefs.SetString("lang", language);//set new preference
+        PlayerPrefs.Save();
     }
 }

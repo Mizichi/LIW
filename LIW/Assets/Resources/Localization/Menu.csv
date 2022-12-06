@@ -10,3 +10,7 @@ Menu.LS,LEVEL SELECT,Seleccionar Nivel
 Menu.LSL1,Level 1,Nivel 1
 Menu.LSL2,Level 2,Nivel 2
 Menu.LSL3,Level 3,Nivel 3
+Menu.Settings,SETTINGS,AJUSTES
+Menu.Vol,Volume,Volumen
+Menu.Res,Resolution,Resolución
+Menu.CB,Color Blind Mode,Modo Daltónico
