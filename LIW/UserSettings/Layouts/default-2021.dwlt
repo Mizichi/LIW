@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 105
+  controlID: 92
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -225,7 +225,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 111
+  controlID: 93
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -250,7 +250,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 112
+  controlID: 94
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -428,9 +428,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1466
+    x: 1462
     y: 73
-    width: 453
+    width: 457
     height: 926
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -477,22 +477,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Resources/Items
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Resources/Items
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\maggi\OneDrive\Desktop\My Unity Games\LIW\LIW
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 6e680000
-    m_LastClickedID: 26734
-    m_ExpandedIDs: 00000000426800004868000000ca9a3b
+    m_SelectedIDs: 566c0000
+    m_LastClickedID: 27734
+    m_ExpandedIDs: 00000000326c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -520,7 +520,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000426800004468000046680000486800004a680000
+    m_ExpandedIDs: 00000000326c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -650,7 +650,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 1a22feff203cfeffb24efeff5264feffb270feffd4b5feffcab6feff52bffeffbac0feff54c7feff1ed4feffaad4feff0ee6feff78e7feff26e8feffb4edfeffccf4feff16fefeff8e10ffff9a11ffff1c12ffffba12ffff9413ffffde14ffff7216fffff217fffffa19ffff7c1affff481bffffca1bffff901cffff4c1dffffa01effffe81fffff6e20ffff2438ffff0639ffff623affff6e3bffff6e4efffffa4effff5c5cffff185dffffce5dffff705effff4260ffffd460ffff2662ffffa662ffffa266ffff4e67ffffec67ffff0a6bffff1678ffff8e80ffff9090ffffde90ffff32a2ffff0eaffffff6cbffffbce0fffff8f1ffff1afbffff0083000026ba000002c10000aed5000092d6000038d80000fcd8000096d90000fcd90000aedb000048dc0000a8dc000042dd0000a2dd00003cde0000d0e1000054e400005ee400008ae4000078e50000aee50000dee5000084ee00003cef0000f4ef0000acf00000eaf1000048f20000dcf600004cf900005603010066070100b00801005e090100ca0c01009e990100f4b00100
+      m_ExpandedIDs: 30c9ffffb0d8ffff24e5ffff52eeffff1afbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -899,9 +899,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 45.250237, y: 0.68039554, z: -18.050322}
+    m_Target: {x: 5.7038126, y: -229.77515, z: 3.124608}
     speed: 2
-    m_Value: {x: 1.1292166, y: 0.40757132, z: -3.088575}
+    m_Value: {x: 5.7038126, y: -229.77515, z: 3.124608}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -948,13 +948,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.6337549, y: -0.0023215748, z: 0.0018996997, w: 0.77353406}
+    m_Target: {x: -0.7028624, y: -0.0006298292, z: 0.00065457454, w: -0.7113484}
     speed: 2
-    m_Value: {x: -0.0060525867, y: -0.9735206, z: 0.025098713, w: -0.22713675}
+    m_Value: {x: -0.7028508, y: -0.0006298188, z: 0.0006545638, w: -0.71133673}
   m_Size:
-    m_Target: 18.798994
+    m_Target: 212.94124
     speed: 2
-    m_Value: 3.1751
+    m_Value: 203.77151
   m_Ortho:
     m_Target: 0
     speed: 2
